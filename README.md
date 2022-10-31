@@ -17,8 +17,8 @@ supports first img/video caption
 
 
 
-create telegram bot guide 
+create telegram bot guide\n
 https://learn.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-telegram?view=azure-bot-service-4.0
 
-get group/chat id guide
+get group/chat id guide\n
 https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id
