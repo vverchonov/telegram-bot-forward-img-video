@@ -10,7 +10,7 @@ run python file bot_tg.py with your local python or with local env
 
 send either images or videos to your bot 
 
-it will send them to selected chat/group
+it will send them to selected chat/group,
 supports first img/video caption
 
 
