@@ -13,3 +13,12 @@ send either images or videos to your bot
 it will send them to selected chat/group
 supports first img/video caption
 
+
+
+
+
+create telegram bot guide 
+https://learn.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-telegram?view=azure-bot-service-4.0
+
+get group/chat id guide
+https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id
