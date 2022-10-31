@@ -2,8 +2,9 @@ import telebot
 import os
 from pprint import pprint
 
-TOKEN_ID = '5711175475:AAGlW3bhNbM9VYTeWrvB29WdhbIo1-hyDR0'
-GROUP_ID = -854246374
+# ADD YOUR BOT TOKEN + CHAT OR GROUP ID
+# TOKEN_ID = ''
+# GROUP_ID =
 
 
 bot = telebot.TeleBot(TOKEN_ID)
