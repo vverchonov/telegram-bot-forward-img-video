@@ -3,7 +3,7 @@ import os
 from pprint import pprint
 
 # ADD YOUR BOT TOKEN + GROUP/CHAT ID
-TOKEN_ID = '5711175475:AAGlW3bhNbM9VYTeWrvB29WdhbIo1-hyDR0'
+TOKEN_ID = ''
 GROUP_ID = -854246374
 
 
