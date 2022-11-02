@@ -2,9 +2,9 @@ import telebot
 import os
 from pprint import pprint
 
-# ADD YOUR BOT TOKEN + CHAT OR GROUP ID
-# TOKEN_ID = ''
-# GROUP_ID =
+# ADD YOUR BOT TOKEN + GROUP/CHAT ID
+TOKEN_ID = '5711175475:AAGlW3bhNbM9VYTeWrvB29WdhbIo1-hyDR0'
+GROUP_ID = -854246374
 
 
 bot = telebot.TeleBot(TOKEN_ID)
@@ -14,7 +14,7 @@ print('bot started')
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
     fname = message.chat.first_name
-    text = ''.join(['', fname, ', \n\n1 Нажми 📎 внизу и выбери фотографии ИЛИ видео \n\n2. Нажми "отправить" \n\n**************************************************** \nБОТ НЕ ПРИНИМАЕТ ФОТО И ВИДЕО В ОДНОМ СООБЩЕНИИ \n****************************************************'])
+    text = ''.join(['Привет ', fname, ', \n\n1 Нажми 📎 внизу и выбери фотографии ИЛИ видео \n\n2. Нажми "отправить" \n\n**************************************************** \nБОТ НЕ ПРИНИМАЕТ ФОТО И ВИДЕО В ОДНОМ СООБЩЕНИИ \n****************************************************'])
     bot.send_message(
         message.chat.id, text)
 
